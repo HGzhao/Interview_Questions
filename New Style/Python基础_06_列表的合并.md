@@ -10,9 +10,9 @@ b = [2,2,6,8]
 # [1, 5, 7, 9, 2, 2, 6, 8]
 ```
 
-%!A. a.append(b)%
+%!A. a.append(b)!%
 
-%!B. a.extend(b)%
+%!B. a.extend(b)!%
 
 %!C. a.add(b)!%
 
