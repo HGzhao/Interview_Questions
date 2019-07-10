@@ -25,30 +25,12 @@ sum(list(range(__, __)))
 
 ## Analysis
 @!
-直接使用python的range函数最简单
-!@
-
-
-
-# 算法_20_求1+2+3+...+n
-
-
-## Question
-
-----
-
-## Analysis
-思路一：直接使用python的range函数。
-
-思路二：利用两个函数，一个函数充当递归函数的角色，另一个函数处理终止递归的情况。如果对n连续进行两次反运算，
-那么非零的n转换为True，0转换为False。利用这一特性终止递归。注意考虑测试用例为0的情况。
-----
-
-## Answer
-Solution1
 ```python
-class Solution1:
-    def Sum_Solution(self, n):
-        # write code here
-        return sum(list(range(1, n + 1)))
+range(start, stop[, step])
 ```
+start: 计数从 start 开始。默认是从 0 开始。例如range（5）等价于range（0， 5）
+
+stop: 计数到 stop 结束，但不包括 stop。例如：range（0， 5） 是[0, 1, 2, 3, 4]没有5
+
+step：步长，默认为1。例如：range（0， 5） 等价于 range(0, 5, 1)
+!@
