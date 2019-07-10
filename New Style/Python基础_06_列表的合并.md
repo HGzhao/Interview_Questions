@@ -11,14 +11,16 @@ b = [2,2,6,8]
 ```
 
 %!A. a.append(b)%
+
 %!B. a.extend(b)%
+
 %!C. a.add(b)!%
-%!D. a+b!%
+
 
 ----
 
 ## Answer
-@!选项B、选项D均可实现!@
+@!B@
 
 ----
 
@@ -28,6 +30,5 @@ b = [2,2,6,8]
 a.append(b)  # [1, 5, 7, 9, [2, 2, 6, 8]]
 a.extend(b)  # [1, 5, 7, 9, 2, 2, 6, 8]
 a.add(b) # AttributeError: 'list' object has no attribute 'add'
-a+b # [1, 5, 7, 9, 2, 2, 6, 8]
 ```
 !@

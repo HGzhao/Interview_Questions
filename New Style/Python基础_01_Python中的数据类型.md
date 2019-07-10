@@ -5,14 +5,17 @@
 以下哪种数据类型在python中不支持（）
 
 %!A. float!%
+
 %!B. string!%
+
 %!C. char!%
+
 %!D. int!%
 
 ----
 
 ## Answer
-@!C. char!@
+@!C!@
 
 ----
 
