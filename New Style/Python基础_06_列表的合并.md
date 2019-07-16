@@ -3,6 +3,7 @@
 
 ## Question
 合并如下两个列表
+
 ```python
 a = [1,5,7,9]
 b = [2,2,6,8]
@@ -25,10 +26,9 @@ b = [2,2,6,8]
 ----
 
 ## Analysis
-@!
+
 ```python
 a.append(b)  # [1, 5, 7, 9, [2, 2, 6, 8]]
 a.extend(b)  # [1, 5, 7, 9, 2, 2, 6, 8]
 a.add(b) # AttributeError: 'list' object has no attribute 'add'
 ```
-!@

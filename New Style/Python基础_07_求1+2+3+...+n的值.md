@@ -24,7 +24,6 @@ sum(list(range(__, __)))
 ----
 
 ## Analysis
-@!
 ```python
 range(start, stop[, step])
 ```
@@ -34,4 +33,3 @@ stop: 计数到 stop 结束，但不包括 stop。例如：range（0， 5） 是
 
 step：步长，默认为1。例如：range（0， 5） 等价于 range(0, 5, 1)
 
-!@
