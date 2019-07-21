@@ -2,7 +2,7 @@
 
 
 ## Question
-以下哪种数据类型在python中不支持（）
+以下哪种数据类型在python中不支持（ ）
 
 %!A. float!%
 
@@ -20,6 +20,6 @@
 ----
 
 ## Analysis
-@!
+
 python不支持char类型，通过string实现字符串操作
-!@
+
